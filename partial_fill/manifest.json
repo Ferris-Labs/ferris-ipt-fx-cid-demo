@@ -1,0 +1,9 @@
+{
+  "description": "Process payment",
+  "execution_order": ["app.py"],
+  "allow_manual_triggering": true,
+  "active": true,
+  "tags": ["cid demo"],
+  "trigger_events": ["cd_issue_payment"],
+  "output_events": ["cd_payment_confirmed"]
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Request for quotation",
+  "execution_order": ["app.py"],
+  "allow_manual_triggering": true,
+  "active": true,
+  "tags": ["cid demo"],
+  "trigger_events": [],
+  "output_events": ["cd_issue_order"]
+}

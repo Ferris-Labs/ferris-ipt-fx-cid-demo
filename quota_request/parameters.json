@@ -1,0 +1,58 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "label": "ISIN",
+      "name": "ISIN",
+      "required": true,
+      "default": "CH0123456789",
+      "description": "ISIN"
+    },
+    {
+      "type": "text",
+      "label": "Company Name",
+      "name": "companyname",
+      "required": true,
+      "description": "Name of the company"
+    },
+    {
+      "type": "int",
+      "label": "Number of Shares",
+      "name": "quota",
+      "required": true,
+      "description": "Number of shares",
+      "default": 1
+    },
+    {
+      "type": "select",
+      "label": "Order Type",
+      "name": "ordertype",
+      "default": "Market",
+      "choices": [
+        {
+          "title": "Market",
+          "value": "market"
+        },
+        {
+          "title": "Limit",
+          "value": "limit"
+        }
+      ]
+    },
+    {
+      "type": "multiselect",
+      "label": "Brokers",
+      "name": "brokers",
+      "choices": [
+        {
+          "title": "Swissquotes",
+          "value": "Swissquotes"
+        },
+        {
+          "title": "Interactive Brokers",
+          "value": "Interactive Brokers"
+        }
+      ]
+    }
+  ]
+}
