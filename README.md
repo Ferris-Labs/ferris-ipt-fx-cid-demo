@@ -25,4 +25,14 @@ To illustrate the different executor capabilities with minimum code we did not i
 
 ## Steps to Play
 
+Head over to home.sb.ferris.ai to start and register for a new user. 
 
+1. Clone the repo to your own machine, directory & account
+1. Change and extend after your own creative likings & commit / push your changes 
+1. Create your "own" project on the FX sandbox
+1. Add your "own" version / repo to the project
+1. Add the synch / deploy key to your remote repo (use the SSH notation link)
+1. Synchronize the project with your remote repo
+1. Test and debug at your will on   
+
+Of course feel free to completely leave the example behind and try for some more complex cases involving "real" API calls or other ideas you may have.
